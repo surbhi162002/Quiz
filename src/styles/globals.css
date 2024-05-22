@@ -1,0 +1,74 @@
+/* Set the background color and font for the entire page */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the quiz on the page */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #ccc;
+}
+
+/* Style the submit button */
+button , .btn  {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Style the score display */
+h1:last-of-type {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+}
+/* Style the select element */
+select {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+/* Style the option elements */
+option {
+  font-size: 16px;
+  color: #333;
+}
+.main-heading{
+  font-size: 20px;
+  text-align: center;
+}
+a{
+text-decoration: none;
+}
